@@ -213,8 +213,19 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
                   ),
                 ),
               ),
-              
             ],
+          ),
+          SizedBox(
+            height: 10.0,
+          ),
+          Center(
+            child: Text(
+              'Menu',
+              style: TextStyle(
+                  fontSize: 22.0,
+                  fontWeight: FontWeight.w600,
+                  letterSpacing: 1.2),
+            ),
           ),
           SizedBox(
             height: 10.0,
@@ -223,14 +234,12 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
             child: GridView.count(
               padding: EdgeInsets.all(10.0),
               crossAxisCount: 2,
-              children:List.generate(widget.restaurant.menu.length, (index) {
+              children: List.generate(widget.restaurant.menu.length, (index) {
                 Food food = widget.restaurant.menu[index];
                 return _buildMenuItem(food);
               }),
             ),
           )
-          
-
         ],
       ),
     );
