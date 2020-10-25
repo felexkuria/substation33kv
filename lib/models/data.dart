@@ -229,7 +229,7 @@ final _restaurant0 = Restaurant(
   imageUrl: 'assets/images/restaurant_a.jpg',
   name: 'Restaurant 0',
   address: '200 Main St,New York ,NY',
-  rating: 5,
+  rating: 3,
   menu: [
     _s8_abc_chinese_soup,
     _s7_bur_dock_chinese_soup,
@@ -861,7 +861,7 @@ final currentUser = User(
       restaurant: _restaurant3,
       food: _kung_po,
       date: 'Nov 10, 2020',
-      quantity: 4,
+      quantity: 1,
     ),
     Order(
       restaurant: _restaurant2,
@@ -877,6 +877,25 @@ final currentUser = User(
     ),
     Order(
       restaurant: _restaurant4,
+      food: _d2_chai_kuih,
+
+      date: 'Nov 10, 2020',
+      quantity: 3,
+    ),
+    Order(
+      restaurant: _restaurant2,
+      food: _kung_po,
+      date: 'Nov 10, 2020',
+      quantity: 3,
+    ),
+    Order(
+      restaurant: _restaurant2,
+      food: _kung_po,
+      date: 'Nov 10, 2020',
+      quantity: 3,
+    ),
+    Order(
+      restaurant: _restaurant2,
       food: _kung_po,
       date: 'Nov 10, 2020',
       quantity: 3,
