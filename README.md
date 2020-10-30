@@ -1,6 +1,6 @@
 # substation33kv
 
-A new Flutter application.
+A new Flutter application. Code from Udemy flutter ui master class
 
 ## Getting Started
 
